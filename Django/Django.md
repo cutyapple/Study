@@ -31,3 +31,23 @@
 
 - `python manage.py startapp elections` `elecetion`이란 앱을 만드는 명령어이다.
 - 생성된 앱 폴더는 프로젝터 폴더 내부에 생성된다.
+
+- `elections` 폴더 내부에 `views.py` 파일을 찾아 연다.
+- ``` Python
+    from django.http import HttpResponse
+
+    def index(request):
+        return HttpResponse("Hello World!")
+  ```
+   이런 형식으로 코드를 추가로 작성한다.
+   
+- 이때, index 함수를 실행시키기 위해서는 구조가 필요하다.
+
+1. mysite Project가 최외각에 존재한다.
+2. elections App이 그 다음에 존재한다.
+3. views 파일과 그 내부에 index 함수가 존재한다.
+
+- 그러므로 index 함수를 처리하기 위해서는 elcetions를 먼저 실행시켜야 한다. 
+- 또한, elections가 실행된 후 어느 때에 index를 실행 시킬지도 설정해야 한다.
+
+- polls
