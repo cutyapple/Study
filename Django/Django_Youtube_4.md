@@ -72,3 +72,77 @@ admin.site.register(Student)
 
 ### 4-2 레코드 다루기(create, read, update, delete) 
 
+shell 모드 진행 : `python manage.py shell`을 입력하여 shell 모드로 진행할 수 있다.
+
+#### 레코드 추가(create) - 데이터 생성
+
+1. NEW_PROJECT 디렉토리 내부에 진입한다.
+2. `python manage.py shell`을 입력하여, shell 모드를 킨다.
+3. `from students.models import Student`를 입력하여 Student 클래스를 사용할 수 있게 한다.
+4. 변수에 Student를 생성자를 이용해 넣어준다.
+5. 변수.save()로 DB에 저장한다. 
+
+```python
+python manage.py shell  #shell 모드 킴
+from students.models import Student #Student 클래스 import
+qs = Student(s_name='honggildong', s_major='computer', s_age=21, s_grade=2, s_gender='M')   # 변수 할당
+qs.save()   #save()
+```
+
+#### 레코드 읽기(read) - 데이터 검색
+
+1. NEW_PROJECT 디렉토리 내부에 진입한다.
+2. `python manage.py shell`을 입력하여, shell 모드를 킨다.
+3. `CLASSNAME.objects.all()`을 입력하여, CLASSNAME의 데이터 전체를 **QuerySet** 타입으로 반환한다.
+4. `CLASSNAME.objects.get(조건)`을 입력하여, CLASSNAME의 데이터 중 조건에 맞는 데이터를 **CLASSNAME** 타입으로 반환한다.
+
+#### 레코드 읽기(read) - 필드 데이터 검색
+
+1. 데이터 다수 : 첨자([])를 이용한 접근
+    * ```python
+          qs = Student.objects.all()
+          qs[1]
+          qs[1].s_name
+      ``` 
+2. 데이터 한개 : '.'를 이용한 접근
+    * ```python
+          qs = Student.objects.get(s_name='Honggildong')
+          qs.s_name
+          qs.s_age
+      ```
+      
+#### 레코드 읽기(read) - 데이터 필터(filter)
+
+기호 | 뜻
+-----|----
+__lt | ~보다 작다
+__lte | ~보다 작거나 같다
+__gt | ~보다 크다
+__gte | ~보다 크거나 같다
+__isnull | ~ null인 자료 검색
+__contains | 특정 문자열을 포함하는 자료 검색
+__startwith | 특정 문자열로 시작하는 자료 검색
+__endwith | 특정 문자열로 끝나는 자료 검색
+
+#### 레코드 읽기(read) - 데이터 정렬
+
+기호 | 뜻
+-----|---
+order_by(' ') | 오름차순
+order_by('- ') | 내림차순
+
+#### 레코드 업데이트(update) - 데이터 수정
+
+1. NEW_PROJECT 디렉토리 내부에 진입한다.
+2. `python manage.py shell`을 입력하여, shell 모드를 킨다.
+3. `CLASSNAME.objects`를 이용하여 변수에 값을 담는다.
+4. 변수에 값을 재할당하여 데이터를 수정한다.
+5. 변수.save()
+
+#### 레코드 삭제(delete) - 데이터 삭제
+
+1. 1. NEW_PROJECT 디렉토리 내부에 진입한다.
+2. `python manage.py shell`을 입력하여, shell 모드를 킨다.
+3. `CLASSNAME.objects`를 이용하여 변수에 값을 담는다.
+4. 변수.delete()
+
