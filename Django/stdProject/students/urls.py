@@ -21,4 +21,8 @@ urlpatterns = [
     path('reg/', views.regStudent, name='reg'),
     path('regCon/', views.regConStudent, name='regCon'),
     path('all/', views.reaConStudentAll, name='stdAll'),
+    path('<str:name>/det/', views.detStudent, name='stuDet'),
+    path('<str:name>/mod/', views.reaStudentOne, name='stuMod'),
+    path('modCon/', views.modConStudent, name='modCon'),
+    path('<str:name>/stuDel/', views.delConStudent, name='stuDel'),
 ]
