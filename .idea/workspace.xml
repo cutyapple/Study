@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1910e456-e3eb-48e9-8d19-60c58f1706b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Django/Django_Youtube_7.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django/stdProject/students/templates/students/detailStudents.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django/stdProject/students/templates/students/modifyStudents.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium/Selenium_Study.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium/a.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Django/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django/stdProject/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/Django/stdProject/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django/stdProject/students/templates/students/readStudents.html" beforeDir="false" afterPath="$PROJECT_DIR$/Django/stdProject/students/templates/students/readStudents.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django/stdProject/students/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django/stdProject/students/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django/stdProject/students/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django/stdProject/students/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="1910e456-e3eb-48e9-8d19-60c58f1706b9" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,20 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Selenium/Selenium_Study.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="36" column="20" lean-forward="true" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
-              <folding>
-                <element signature="e#69#99#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Selenium/a.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1632">
-              <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+            <state relative-caret-position="253">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="e#69#99#0" expanded="true" />
               </folding>
@@ -101,7 +77,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="950" />
     <option name="width" value="980" />
     <option name="height" value="550" />
@@ -212,14 +188,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.122934565" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32885906" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32885906" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -270,8 +245,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Selenium/Selenium_Study.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="36" column="20" lean-forward="true" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+        <state relative-caret-position="253">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="e#69#99#0" expanded="true" />
           </folding>
